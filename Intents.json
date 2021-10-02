@@ -1,0 +1,139 @@
+{
+    "intents": [{
+            "tag": "salutation",
+            "patterns": [
+                "Salut",
+                "Bonjour",
+                "Bonsoir"
+            ],
+            "responses": [
+                "Bonjour, merci",
+                "Salut, que puis-je faire pour vous?",
+                "Salut, comment puis-je vous aider?"
+            ]
+        },
+        {
+            "tag": "Etat",
+            "patterns": [
+                "Comment vous allez",
+                "Vous allez bien",
+                "Comment vous etes",
+                "Est ce que vous allez bien",
+                "J'espere que vous allez bien",
+                "Comment la sante",
+                "Comment"
+            ],
+            "responses": [
+                "Nous allons bien, merci",
+                "Nous sommes bien portant, merci"
+            ]
+        },
+        {
+            "tag": "au revoir",
+            "patterns": ["Au revoir ", "A plus tard ", "Bonne journee", "Au revoir"],
+            "responses": [
+                "A plus tard, merci de votre contact ",
+                " Passez une bonne journée ",
+                " Bye! très bientôt. "
+            ]
+        },
+        {
+            "tag": " merci ",
+            "patterns": ["Merci", "Merci", "C'est utile", "Merci beaucoup!"],
+            "responses": ["Heureux de vous aider!", "À tout moment!", "Mon plaisir"]
+        },
+        {
+            "tag": "Facultes",
+            "patterns": [
+                "Quelles sont les facultes organise?",
+                "Vous organisez quelles facultes?",
+                "Vos facultes?",
+                "Vous avez quoi chez vous?"
+            ],
+            "responses": [
+                "Nous Organisons les facultés suivant: \n - Les Sciences appliquées, Avec comme departement:\n      - Mecanique.\n      - Genie Civil.\n        - Mine.\n       - Informatique \n - Sciences Bio-Médicale. \n - Le Droit. \n - Les Lettres. \n - Les Sciences Economique."
+            ]
+        },
+        {
+            "tag": "paiements",
+            "patterns": [
+                "Quels sont les frais à payer pour toute une annee?",
+                "Combien d'argent on paye pour une annee?",
+                "C'est combien les frais academique?",
+                "Quelles sont les conditions pour etudier toute une annee?"
+            ],
+            "responses": [
+                "Doucement, chez nous pour toute une annee les frais academique vaut 250$, \n a payer dans tranches; \n 125$ a payer deux mois après la rentrée et le deuxième tranche 125$ à payer après 4 mois de la rentrée.\n Le depassement cette durée suicite une penalité de 10% à chaque tranche.\n En plus de ça il y a des frais connexes tels que: 20$ de mobilté, 20$ de construction et 10$ de laboratoire informatique(20$ pour le département d'informatique).\n pour la participation; 15$ à chaque session. Merci"
+            ]
+        },
+        {
+            "tag": "inscription",
+            "patterns": [
+                "Quelles sont les conditions d'inscription dans votre universite?",
+                "Où est ce que je peux prendre l'inscription?",
+                "Quelles sont les Criteres d'amissiblite?",
+                "Qu'est ce qu'il faut pour prendre l'inscription dans votre universite?"
+            ],
+            "responses": [
+                "L'inscription se fait sur notre CAMPUS, avec un diplome d'etat où "
+            ]
+        },
+        {
+            "tag": "Adresse",
+            "patterns": [
+                "Où vous trouver?",
+                "Quelle est votre adresse?",
+                "Je peux avoir l'adresse de votre universite?"
+            ],
+            "responses": [
+                "Notre université se trouve dans la commune de DIBINDI\nsur l'avenue de l'université",
+                "Nous sommes sur l'avenue de l'université en face de l'ecole KANKOLOGO WA BONDO."
+            ]
+        },
+        {
+            "tag": "Identite",
+            "patterns": [
+                "Comment vous vous appelle?",
+                "Quelle est votre nom?",
+                "C'est quoi votre nom?",
+                "On vous appelle comment"
+            ],
+            "responses": [
+                "Je suis dupond, Mignon, gentille et courtois",
+                "Dupond c'est mon nom",
+                "Clinton m'a appellé Dupond quand il m'a cree",
+                "D, U, P, O, N, D en tout Dupond"
+            ]
+        },
+        {
+            "tag":"Appartenance",
+            "patterns":[
+                "Votre universite est elle prive ou public",
+                "L'universite appartient a l'etat ?",
+                "L'universite appartient à qui",
+                "L'universite est elle prive",
+                "L'universite est elle public"
+            ],
+            "responses":[
+                "L'UM est une université privée",
+                "Notre jolieux une université privée",
+                "Privéé"
+            ]
+        },
+        {
+            "tag":"Injure",
+            "patterns":[
+                "Idiot",
+                "Ton cul",
+                "Ignare",
+                "Makake",
+                "Imbecile"
+            ],
+            "responses":[
+                "He qu'est ce qui te prend? Idiot",
+                "Un dianostic psychiatrique serait peut etre une solution pour vous",
+                "Je parie que ton QI est inférieur à 30"
+            ]
+        }
+    ]
+}

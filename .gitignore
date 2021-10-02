@@ -1,0 +1,139 @@
+# Fichiers compilés / optimisés / DLL
+CHATBOT FILES/
+__pycache__/
+*.py[morue]
+*$py.class
+
+# Extensions C
+*.so
+
+# Distribution / emballage
+. Python
+construire/
+développer-oeufs/
+Dist/
+Téléchargements/
+oeuf/
+.oeufs/
+Lib/
+lib64/
+Pièces/
+sdiste/
+Var/
+Roues/
+partager/python-wheels/
+*.egg-info/
+.installé.cfg
+*.oeuf
+MANIFESTE
+
+# PyInstaller
+# Habituellement, ces fichiers sont écrits par un script python à partir d’un modèle
+# avant que PyInstaller ne construise l’exe, afin d’y injecter date/autres infos.
+*.manifeste
+*.spec
+
+# Journaux du programme d’installation
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Rapports de test unitaire / couverture
+htmlcov/
+.tox/
+.nox/
+.couverture
+.couverture.*
+.cache
+tests de nez.xml
+couverture.xml
+*.couverture
+*.py,couverture
+.hypothèse/
+.pytest_cache/
+couvrir/
+
+# Traductions
+*.mo
+*.pot
+
+# Trucs django:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Trucs de flacons:
+instance/
+.webassets-cache
+
+# Trucs racés:
+.scrapy
+
+# Documentation sur Sphinx
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+cible/
+
+# Bloc-notes Jupyter
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# Pour une bibliothèque ou un package, vous pouvez ignorer ces fichiers puisque le code est
+# destiné à fonctionner dans plusieurs environnements; sinon, enregistrez-les dans :
+# .python-version
+
+# pipenv
+# Selon pypa/pipenv#598, il est recommandé d’inclure Pipfile.lock dans le contrôle de version.
+# Cependant, en cas de collaboration, si vous avez des dépendances ou des dépendances spécifiques à la plate-forme
+# n’ayant pas de support multiplateforme, pipenv peut installer des dépendances qui ne fonctionnent pas ou ne fonctionnent pas
+# installer toutes les dépendances nécessaires.
+#Pipfile.lock
+
+# PEP 582; utilisé par exemple par github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Trucs de céleri
+celerybeat-schedule
+celerybeat.pid
+
+# Fichiers analysés SageMath
+*.sage.py
+
+# Environnements
+.env
+.venv
+Env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Paramètres du projet Spyder
+.spyderproject
+.spyproject
+
+# Paramètres du projet De corde
+.ropeproject
+
+# Documentation de mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Vérificateur de type bûcher
+.pyre/
+
+# Analyseur de type statique pytype
+.pytype/
+
+# Symboles de débogage Cython
+cython_debug/
